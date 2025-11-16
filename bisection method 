@@ -1,6 +1,6 @@
 def f(x):
     return 2*x**2-8*x-2
-#the equation whose root is to be found 
+#the equation whose root is to be found, the function of x can be algebraic or transcendental. 
 u=[k for k in range(0,100)]
 #search for a number "a" such that f(a) >0  
 for i in u:
