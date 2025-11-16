@@ -17,8 +17,8 @@ print(f' a={a} , f(a)={f(a)} , b= {b} , f(b)={f(b)}\n')
 #first iteration     
 x= (a+b)/2
 print(x)
-iterative process 
-for i in range(1,30):
+#iterative process 
+for i in range(1,15):
     if f(x)<0:
         b=x #updates b if f(x)<0 
         x= (a+b)/2 
